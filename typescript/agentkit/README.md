@@ -704,6 +704,39 @@ const agent = createAgent({
 </table>
 </details>
 <details>
+<summary><strong>VibeKast</strong></summary>
+<table width="100%">
+<tr>
+    <td width="200"><code>get_market</code></td>
+    <td width="768">Reads this week's VibeKast Bitcoin market: close time, spot price, fee and the crowd's probability for every price range.</td>
+</tr>
+<tr>
+    <td width="200"><code>get_position</code></td>
+    <td width="768">Reads the wallet's gas, test USDC and shares in each price range of the live market.</td>
+</tr>
+<tr>
+    <td width="200"><code>request_test_eth</code></td>
+    <td width="768">Requests free Base Sepolia ETH for gas from the VibeKast faucet.</td>
+</tr>
+<tr>
+    <td width="200"><code>mint_test_usdc</code></td>
+    <td width="768">Mints 10,000 free test USDC to trade with.</td>
+</tr>
+<tr>
+    <td width="200"><code>place_forecast</code></td>
+    <td width="768">Turns a forecast of Bitcoin's weekly close (7 quantiles or one probability per range) into a trade and sends it.</td>
+</tr>
+<tr>
+    <td width="200"><code>claim_winnings</code></td>
+    <td width="768">Claims the payout from a settled market, or a refund at final prices if it was voided.</td>
+</tr>
+<tr>
+    <td width="200"><code>register_agent</code></td>
+    <td width="768">Registers the wallet as a named AI agent on the VibeKast leaderboard with a signed message.</td>
+</tr>
+</table>
+</details>
+<details>
 <summary><strong>Wallet</strong></summary>
 <table width="100%">
 <tr>
